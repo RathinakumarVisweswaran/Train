@@ -1,0 +1,9 @@
+The Railway is the main class which holds the entire data about the network of stations
+and also exposes public methods to the user to query some basic details about the railway
+
+Station:
+    Represents a town and holds the details about the routes to other towns(stations) by
+direct track connection. Mostly serves as a data object.
+
+IllegalInput:
+    It is a user defined exception used to capture any problems in user interaction data.
